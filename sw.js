@@ -1,5 +1,5 @@
 'use strict';
-const CACHE='fengmanyuan-offline-v1';
+const CACHE='fengmanyuan-offline-v2-specs';
 const FILES=['./index.html','./manifest.webmanifest','./icon-180.png','./icon-192.png','./icon-512.png'];
 const urls=FILES.map(path=>new URL(path,self.registration.scope).href);
 self.addEventListener('install',event=>{
